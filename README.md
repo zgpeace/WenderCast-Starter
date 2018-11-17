@@ -5,5 +5,5 @@ Because the starter project is built error, I correct it. Finally can run. The c
  1. change the ``` SWXMLHash.swift ``` file from [drmohundro/SWXMLHash](https://github.com/drmohundro/SWXMLHash), for the problem <br> ``` .Element Ambiguous use of Element SWXMLHash swift ```
  2. correct the code in file ``` PodcastFeedLoader.swift ``` in line 48 to   <br>   ```let feedItems = items.all.flatMap { (indexer: XMLIndexer) -> PodcastItem? in``` , <br>   the origin code is <br> ``` let feedItems = items.flatMap { (indexer: XMLIndexer) -> PodcastItem? in```
 
-the result picture:
+the result picture: <br>
 ![](https://koenig-media.raywenderlich.com/uploads/2017/04/initial_list.png)
