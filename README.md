@@ -7,3 +7,7 @@ Because the starter project is built error, I correct it. Finally can run. The c
 
 the result picture: <br>
 ![](https://koenig-media.raywenderlich.com/uploads/2017/04/initial_list.png)
+
+
+### 分支说明：master是初始化代码， finish是完成例子的结果。
+### 真机测试，需要修改所有的BundleId, Certificate, Profile。
