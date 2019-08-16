@@ -1,13 +1,2 @@
-# WenderCast-Starter
-
-This is the  starter project of WenderCast from [Push Notifications Tutorial: Getting Started](https://www.raywenderlich.com/584-push-notifications-tutorial-getting-started),
-Because the starter project is built error, I correct it. Finally can run. The correct solution is below.
- 1. change the ``` SWXMLHash.swift ``` file from [drmohundro/SWXMLHash](https://github.com/drmohundro/SWXMLHash), for the problem <br> ``` .Element Ambiguous use of Element SWXMLHash swift ```
- 2. correct the code in file ``` PodcastFeedLoader.swift ``` in line 48 to   <br>   ```let feedItems = items.all.flatMap { (indexer: XMLIndexer) -> PodcastItem? in``` , <br>   the origin code is <br> ``` let feedItems = items.flatMap { (indexer: XMLIndexer) -> PodcastItem? in```
-
-the result picture: <br>
-![](https://koenig-media.raywenderlich.com/uploads/2017/04/initial_list.png)
-
-
-### 分支说明：master是初始化代码， finish是完成例子的结果。
-### 真机测试，需要修改所有的BundleId, Certificate, Profile。
+# APNs Push Notification教程一
+https://blog.csdn.net/zgpeace/article/details/85007247
